@@ -3,7 +3,7 @@ services:
     name: nexusbot
     runtime: node
     plan: free
-    repo: https://github.com/nexustechpro2/NexusBot.git
+    repo: https://github.com/zervonex/NexusBot.git
     region: oregon
     branch: main
     buildCommand: npm install --production
