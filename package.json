@@ -4,7 +4,7 @@
   "description": "Multi-user WhatsApp Bot Platform with plugin system",
   "main": "main.js",
   "type": "module",
-  "author": "Zervonex",
+  "author": "NexusTechPro",
   "license": "MIT",
   "keywords": [
     "whatsapp",
