@@ -4,7 +4,7 @@
 
 # ⚡ NEXUSBOT DEPLOYMENT
 
-[![Version](https://img.shields.io/badge/Version-2.2.0-blue.svg?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/nexustechpro2/nexusbot)
+[![Version](https://img.shields.io/badge/Version-2.2.0-blue.svg?style=for-the-badge&logo=semver&logoColor=white)](https://github.com/zervonex/nexusbot)
 [![Node.js](https://img.shields.io/badge/Node.js-20.x%20%7C%2022.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Embedded%20%7C%20Cloud-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
@@ -50,7 +50,7 @@ Click any platform below to expand the step-by-step setup guide:
 
 <br>
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fnexustechpro2%2Fnexusbot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fzervonex%2Fnexusbot)
 
 *Simplest cloud deployment with pre-configured blueprint (`render.yaml`).*
 
@@ -101,7 +101,7 @@ Click any platform below to expand the step-by-step setup guide:
 2. Open your terminal, log in, and clone the repository:
    ```bash
    fly auth login
-   git clone https://github.com/nexustechpro2/nexusbot.git
+   git clone https://github.com/zervonex/nexusbot.git
    cd nexusbot
    ```
 3. Initialize the app configuration:
@@ -135,7 +135,7 @@ Click any platform below to expand the step-by-step setup guide:
 
 *Serverless container deployment with automated GitHub builds.*
 
-1. [Sign up for Koyeb](https://app.koyeb.com/auth/signup) and [fork the repository](https://github.com/nexustechpro2/nexusbot/fork).
+1. [Sign up for Koyeb](https://app.koyeb.com/auth/signup) and [fork the repository](https://github.com/zervonex/nexusbot/fork).
 2. In the Koyeb dashboard, click **Create Service** ➜ **GitHub**.
 3. Select your forked `nexusbot` repository and the `main` branch.
 4. Configure build and run commands:
@@ -162,7 +162,7 @@ Click any platform below to expand the step-by-step setup guide:
 
 #### ⚡ Method 1: Full Repository Package (Auto-Update Setup)
 1. **Download the full repository package:**
-   [![Download ZIP](https://img.shields.io/badge/Download-Full%20Repository%20ZIP-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nexustechpro2/nexusbot/archive/refs/heads/main.zip)
+   [![Download ZIP](https://img.shields.io/badge/Download-Full%20Repository%20ZIP-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zervonex/nexusbot/archive/refs/heads/main.zip)
 2. In your Pterodactyl Panel, open **File Manager** and upload the downloaded ZIP archive.
 3. Click the three dots on the archive and select **Uncompress / Extract**.
 4. Select all extracted files and folders, click **Move**, and type `../../` in the destination input to move all files to `/home/container`.
@@ -218,7 +218,7 @@ source ~/.bashrc
 nvm install 20 && nvm use 20
 
 # 4. Clone repository
-git clone https://github.com/nexustechpro2/nexusbot.git
+git clone https://github.com/zervonex/nexusbot.git
 cd nexusbot
 
 # 5. Install dependencies
@@ -266,7 +266,7 @@ pkg install -y git nodejs-lts python make clang libsqlite
 termux-setup-storage
 
 # 4. Clone repository
-cd ~ && git clone https://github.com/nexustechpro2/nexusbot.git
+cd ~ && git clone https://github.com/zervonex/nexusbot.git
 cd nexusbot
 
 # 5. Build native packages & install
@@ -285,6 +285,6 @@ npm start
 
 <div align="center">
 
-Made with ❤️ by [NexusTech Pro](https://github.com/nexustechpro2)
+Made with ❤️ by [NexusTech Pro](https://github.com/zervonex)
 
 </div>
